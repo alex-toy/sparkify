@@ -1,10 +1,10 @@
 # DROP TABLES
 
-songplay_table_drop = ""
-user_table_drop = ""
-song_table_drop = ""
-artist_table_drop = ""
-time_table_drop = ""
+songplay_table_drop = "drop table songplay;"
+user_table_drop = "drop table user;"
+song_table_drop = "drop table song;"
+artist_table_drop = "drop table artist;"
+time_table_drop = "drop table time;"
 
 # CREATE TABLES
 
