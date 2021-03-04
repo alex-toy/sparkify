@@ -9,18 +9,55 @@ time_table_drop = "drop table time;"
 # CREATE TABLES
 
 songplay_table_create = ("""
+CREATE TABLE songplay (
+    songplay_id int, 
+    start_time date, 
+    user_id int, 
+    level int, 
+    song_id int, 
+    artist_id int, 
+    session_id int, 
+    location text, 
+    user_agent text
+);
 """)
 
 user_table_create = ("""
+CREATE TABLE user (
+    user_id int, 
+    first_name text, 
+    last_name text, 
+    gender text, 
+    level text
 """)
 
 song_table_create = ("""
+CREATE TABLE song (
+    song_id int, 
+    title text, 
+    artist_id int, 
+    year date, 
+    duration numeric
 """)
 
 artist_table_create = ("""
+CREATE TABLE artist (
+    artist_id text, 
+    name text, 
+    location text, 
+    latitude text, 
+    longitude text
 """)
 
 time_table_create = ("""
+CREATE TABLE time (
+    start_time date, 
+    hour int, 
+    day int, 
+    week int, 
+    month int, 
+    year int, 
+    weekday int
 """)
 
 # INSERT RECORDS
