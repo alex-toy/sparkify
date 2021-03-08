@@ -7,6 +7,16 @@ import datetime
 
 
 def process_song_file(cur, filepath):
+    """
+    Creates song and artist table based off of json file
+
+            Parameters:
+                    cur (object): entry point to database
+                    filepath (string): path to a json file containing data
+
+            Returns:
+                    None 
+    """
     # open song file
     df = pd.read_json(filepath, lines=True)
 
@@ -20,6 +30,16 @@ def process_song_file(cur, filepath):
 
 
 def process_log_file(cur, filepath):
+    """
+    Creates time and songplay table based off of json file
+
+            Parameters:
+                    cur (object): entry point to database
+                    filepath (string): path to a json file containing data
+
+            Returns:
+                    None 
+    """
     # open log file
     df = pd.read_json(filepath, lines=True)
 

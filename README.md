@@ -10,8 +10,7 @@ You need to have Python 3.6.3 installed for this project
 
 ## 1. Purpose of the project
 
-
-Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.
+The purpose of the project is to build an ETL pipeline which transfers data from files in two local directories into tables in Postgres using Python and SQL. Data in postgres is modelled according to a star schema with fact and dimension tables for easy and fast analysis.
 
 
 ## 2. database schema design and ETL pipeline
@@ -28,13 +27,13 @@ Provide example queries and results for song play analysis
 
     ├── README.md               <- The top-level README for users and developers using this project.
     ├── create_tables.py        <- Python script allowing to create database, create / drop tables with appropriate schema
-    ├── etl.ipynb               <- 
-    ├── requirements.txt        <- 
-    ├── sql_queries.py          <- 
-    ├── test.ipynb              <- 
-    ├── etl.py                  <- 
-    ├── stack.yml               <- 
-    ├── data                    <- 
+    ├── etl.ipynb               <- Notebook for step by step testing
+    ├── requirements.txt        <- install psycopg2 for local use
+    ├── sql_queries.py          <- SQL queries
+    ├── test.ipynb              <- unitary tests for creation, deletion, insertion steps
+    ├── etl.py                  <- Python script allowing to create tables based on json files
+    ├── stack.yml               <- Docker container for postgres image
+    ├── data                    <- json files containing data
 
 
 
