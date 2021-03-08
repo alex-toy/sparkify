@@ -18,6 +18,7 @@ The purpose of the project is to build an ETL pipeline which transfers data from
 In this project, initial dataset comes from two json files :
 
 - First : Song Dataset
+    
     here are filepaths to two files in this dataset :
 
     ```
@@ -25,13 +26,7 @@ In this project, initial dataset comes from two json files :
     song_data/A/A/B/TRAABJL12903CDCF1A.json
     ```
 
-    - If you don't have python3 and you are working on your mac: install it from [python.org](https://www.python.org/downloads/)
-    - If you don't have python3 and are working on an ubuntu-like system: install from package manager:
 
-        ```
-        $ apt-get update
-        $ apt-get -y install python3 python3-pip python3-venv
-        ```
 
 State and justify your database schema design and ETL pipeline.
 
