@@ -23,6 +23,22 @@ State and justify your database schema design and ETL pipeline.
 Provide example queries and results for song play analysis
 
 
+# Project Organization 
+----------------------
+
+    ├── README.md               <- The top-level README for users and developers using this project.
+    ├── create_tables.py        <- Python script allowing to create database, create / drop tables with appropriate schema
+    ├── etl.ipynb               <- 
+    ├── requirements.txt        <- 
+    ├── sql_queries.py          <- 
+    ├── test.ipynb              <- 
+    ├── etl.py                  <- 
+    ├── stack.yml               <- 
+    ├── data                    <- 
+
+
+
+
 # Getting started
 
 ## 1. Clone this repository
@@ -37,20 +53,5 @@ $ cd <this_project>
 ```
 $ pip install -r requirements.txt
 ```
-
-
-# Project Organization 
-----------------------
-
-    ├── README.md          <- The top-level README for users and developers using this project.
-    ├── create_tables.py
-    ├── etl.ipynb
-    ├── requirements.txt
-    ├── sql_queries.py
-    ├── test.ipynb
-    ├── etl.py
-    ├── stack.yml
-    ├── data
-    
 --------
 
