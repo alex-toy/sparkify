@@ -1,2 +1,3 @@
 data/
-
+sparkify-env/
+.ipynb_checkpoints/
