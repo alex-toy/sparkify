@@ -32,6 +32,8 @@ In this project, initial dataset comes from two json files :
     {"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
     ```
 
+    Those files contain the following features : 'artist_id', 'artist_latitude', 'artist_location', 'artist_longitude', 'artist_name', 'duration', 'num_songs', 'song_id', 'title', 'year'
+
 - Second : Log Dataset
     
     Here are filepaths to two files that could be found in such a dataset :
@@ -44,6 +46,11 @@ In this project, initial dataset comes from two json files :
     Those files contain the following features : 'artist', 'auth', 'firstName', 'gender', 'itemInSession', 'lastName',
        'length', 'level', 'location', 'method', 'page', 'registration',
        'sessionId', 'song', 'status', 'ts', 'userAgent', 'userId'
+
+
+Here is how the data is modelled according to a star schema :
+
+- Fact table : Song Dataset
 
 
 ## 3. Example queries and results for song play analysis
