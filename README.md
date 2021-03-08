@@ -13,11 +13,29 @@ You need to have Python 3.6.3 installed for this project
 The purpose of the project is to build an ETL pipeline which transfers data from files in two local directories into tables in Postgres using Python and SQL. Data in postgres is modelled according to a star schema with fact and dimension tables for easy and fast analysis.
 
 
-## 2. database schema design and ETL pipeline
+## 2. Database schema design and ETL pipeline
+
+In this project, initial dataset comes from two json files :
+
+- First : Song Dataset
+    here are filepaths to two files in this dataset :
+
+    ```
+    song_data/A/B/C/TRABCEI128F424C983.json
+    song_data/A/A/B/TRAABJL12903CDCF1A.json
+    ```
+
+    - If you don't have python3 and you are working on your mac: install it from [python.org](https://www.python.org/downloads/)
+    - If you don't have python3 and are working on an ubuntu-like system: install from package manager:
+
+        ```
+        $ apt-get update
+        $ apt-get -y install python3 python3-pip python3-venv
+        ```
 
 State and justify your database schema design and ETL pipeline.
 
-## 3. example queries and results for song play analysis
+## 3. Example queries and results for song play analysis
 
 Provide example queries and results for song play analysis
 
