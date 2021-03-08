@@ -62,7 +62,11 @@ Here is how the data is modelled according to a star schema :
 
 ## 3. Example queries and results for song play analysis
 
-Provide example queries and results for song play analysis
+Once the data has been ETLed, you are free to take full benefit from the power of star modelling and make business driven queries like :
+
+    - Which song has been played by user 'Lily' on a paid level?
+
+
 
 
 # Project Organization 
