@@ -65,7 +65,7 @@ Here is how the data is modelled according to a star schema :
 Once the data has been ETLed, you are free to take full benefit from the power of star modelling and make business driven queries like :
 
     - Which song has been played by user 'Lily' on a paid level?
-
+    - When did user 'Lily' play song from artist 'Elena'?
 
 
 
