@@ -50,7 +50,7 @@ In this project, initial dataset comes from two json files :
 
 Here is how the data is modelled according to a star schema :
 
-- Fact table : Song Dataset
+- songplays : it is our Fact table containing the following features : songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
 
 ## 3. Example queries and results for song play analysis
