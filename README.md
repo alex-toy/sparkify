@@ -80,6 +80,7 @@ Once the data has been ETLed, you are free to take full benefit from the power o
     ├── test.ipynb              <- unitary tests for creation, deletion, insertion steps
     ├── etl.py                  <- Python script allowing to create tables based on json files
     ├── stack.yml               <- Docker container for postgres image
+    ├── data_querying.ipynb     <- Notebook for querying the star model
     ├── data                    <- json files containing data
 
 
