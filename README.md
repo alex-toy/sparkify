@@ -19,16 +19,32 @@ In this project, initial dataset comes from two json files :
 
 - First : Song Dataset
     
-    here are filepaths to two files in this dataset :
+    Here are filepaths to two files that could be found in such a dataset :
 
     ```
     song_data/A/B/C/TRABCEI128F424C983.json
     song_data/A/A/B/TRAABJL12903CDCF1A.json
     ```
 
+    Here is an example of what a single song file may looks like :
 
+    ```
+    {"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
+    ```
 
-State and justify your database schema design and ETL pipeline.
+- Second : Log Dataset
+    
+    Here are filepaths to two files that could be found in such a dataset :
+
+    ```
+    log_data/2018/11/2018-11-12-events.json
+    log_data/2018/11/2018-11-13-events.json
+    ```
+    
+    Those files contain the following features : 'artist', 'auth', 'firstName', 'gender', 'itemInSession', 'lastName',
+       'length', 'level', 'location', 'method', 'page', 'registration',
+       'sessionId', 'song', 'status', 'ts', 'userAgent', 'userId'
+
 
 ## 3. Example queries and results for song play analysis
 
