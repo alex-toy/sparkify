@@ -50,7 +50,14 @@ In this project, initial dataset comes from two json files :
 
 Here is how the data is modelled according to a star schema :
 
-- songplays : it is our Fact table containing the following features : songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+- Fact table : table songplays containing the following features : songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+
+- Dimension tables : 
+
+    - users - users in the app. Features : user_id, first_name, last_name, gender, level
+    - songs - songs in music database. Features : song_id, title, artist_id, year, duration
+    - artists - artists in music database. Features : artist_id, name, location, latitude, longitude
+    - time - timestamps of records in songplays broken down into specific units. Features : start_time, hour, day, week, month, year, weekday
 
 
 ## 3. Example queries and results for song play analysis
